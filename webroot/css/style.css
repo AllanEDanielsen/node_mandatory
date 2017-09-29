@@ -1,0 +1,158 @@
+/*
+ * mah stlywes
+ *
+ *
+ */
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex{
+    margin: 0 58px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+hr{
+    margin: 31px 0;
+}
+
+.button{
+    font-weight: 900;
+    border-radius: 5px;
+    padding: 6px;
+
+    
+}
+
+.flex-50{
+    width: 50%;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+    .flex-50{
+        width: 100%;
+    }
+}
+
+.text-center{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/*
+ * more styling
+ *
+ *
+ */
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#home{
+    display: flex;
+    text-decoration: none;
+    color: #070707;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+#home #logo{
+    height:22px;
+    margin:0 6px 0 0;
+}
+
+
+
+.nav ul li a{
+    color: #080808;
+    padding: 12px 6px;
+}
+
+#tronomatron{
+    align-items: center;
+}
+
+#tronomatron h1, .content h1{
+    width: 90%;
+}
+
+#tronomatron h1{
+    font-size: 4rem;
+}
+
+#tronomatron .button{
+    font-size:1rem;
+}
+
+
+#tronomatron #subheader{
+    color: #D41717;
+    margin: 10px 0;
+    width: 205px;
+}
+
+#tronomatron iframe{
+    display: block;
+    margin: 11px auto 0 auto;
+}
+sidebar article img{
+    width: 155px;
+    align-self: center;
+    margin: 0 10px;
+}
+
+
+sidebar article{
+    display: flex;
+    margin: 0 0 1em 0;
+}
+
+.squares img{
+    padding: 0 1% 1% 1%;
+    width: 29%;
+}
+
+/*
+ * this be da foot
+ */
+footer{
+    margin: 0 !important;
+    padding: 11px 0 55px 0;
+}
+
+footer .button{
+    font-size:0.75rem;
+    
+    padding: 6px 72px;
+}
+
+/*
+ *yay
+ */
+.error-404{
+    margin-top: 55px;
+}
